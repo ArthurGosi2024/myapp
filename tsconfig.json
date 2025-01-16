@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2023"],
+    "module": "node16",
+    "target": "ES2023",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true, // Habilita o suporte a decorators
+    "emitDecoratorMetadata": true // Emite metadados para os decorators
+  }
+}

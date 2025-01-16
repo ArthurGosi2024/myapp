@@ -1,0 +1,2000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="History">
+    <option name="requestHistoryStates">
+      <list>
+        <requestHistoryState>
+          <option name="dateTime" value="1736868638469" />
+          <option name="id" value="7224cebc-f48e-4640-b6b6-37ab2e36a6d2" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="66fdc9b8-2915-4194-b07d-2d679c8ccf91" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="delete-user" />
+              <option name="url" value="http://localhost:3000/deleteUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVXN1w6FyaW8gbsOjbyBlbmNvbnRyYWRvLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Usuário não encontrado.&quot;&#10;}" />
+              <option name="code" value="404" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="39" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;27-1gIOvfgXXzQUhtilcYsNzzEVfD0&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Tue, 14 Jan 2025 15:30:38 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="7224cebc-f48e-4640-b6b6-37ab2e36a6d2" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Usuário não encontrado.&quot;}" />
+              <option name="size" value="39" />
+              <option name="time" value="3" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736961479036" />
+          <option name="id" value="0c05c502-7821-4f4c-859c-b30f1d228e02" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="66fdc9b8-2915-4194-b07d-2d679c8ccf91" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="delete-user" />
+              <option name="url" value="http://localhost:3000/deleteUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CjxtZXRhIGNoYXJzZXQ9InV0Zi04Ij4KPHRpdGxlPkVycm9yPC90aXRsZT4KPC9oZWFkPgo8Ym9keT4KPHByZT5DYW5ub3QgREVMRVRFIC9kZWxldGVVc2VyPC9wcmU+CjwvYm9keT4KPC9odG1sPgo=" />
+              <option name="bodyString" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;utf-8&quot;&gt;&#10;&lt;title&gt;Error&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;pre&gt;Cannot DELETE /deleteUser&lt;/pre&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;" />
+              <option name="code" value="404" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'none'" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="152" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 17:17:59 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="0c05c502-7821-4f4c-859c-b30f1d228e02" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;utf-8&quot;&gt;&#10;&lt;title&gt;Error&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;pre&gt;Cannot DELETE /deleteUser&lt;/pre&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;" />
+              <option name="size" value="152" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736961482666" />
+          <option name="id" value="317a199c-e530-4e14-a107-a3b30c6e0d53" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="66fdc9b8-2915-4194-b07d-2d679c8ccf91" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="delete-user" />
+              <option name="url" value="http://localhost:3000/deleteUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CjxtZXRhIGNoYXJzZXQ9InV0Zi04Ij4KPHRpdGxlPkVycm9yPC90aXRsZT4KPC9oZWFkPgo8Ym9keT4KPHByZT5DYW5ub3QgREVMRVRFIC9kZWxldGVVc2VyPC9wcmU+CjwvYm9keT4KPC9odG1sPgo=" />
+              <option name="bodyString" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;utf-8&quot;&gt;&#10;&lt;title&gt;Error&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;pre&gt;Cannot DELETE /deleteUser&lt;/pre&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;" />
+              <option name="code" value="404" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'none'" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="152" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 17:18:02 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="317a199c-e530-4e14-a107-a3b30c6e0d53" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;utf-8&quot;&gt;&#10;&lt;title&gt;Error&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;pre&gt;Cannot DELETE /deleteUser&lt;/pre&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;" />
+              <option name="size" value="152" />
+              <option name="time" value="2" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736961598358" />
+          <option name="id" value="055105c5-1619-4977-b838-2d2aa359cf0e" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="66fdc9b8-2915-4194-b07d-2d679c8ccf91" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="delete-user" />
+              <option name="url" value="http://localhost:3000/deleteUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CjxtZXRhIGNoYXJzZXQ9InV0Zi04Ij4KPHRpdGxlPkVycm9yPC90aXRsZT4KPC9oZWFkPgo8Ym9keT4KPHByZT5DYW5ub3QgREVMRVRFIC9kZWxldGVVc2VyPC9wcmU+CjwvYm9keT4KPC9odG1sPgo=" />
+              <option name="bodyString" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;utf-8&quot;&gt;&#10;&lt;title&gt;Error&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;pre&gt;Cannot DELETE /deleteUser&lt;/pre&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;" />
+              <option name="code" value="404" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'none'" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="152" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 17:19:58 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="055105c5-1619-4977-b838-2d2aa359cf0e" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;utf-8&quot;&gt;&#10;&lt;title&gt;Error&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;pre&gt;Cannot DELETE /deleteUser&lt;/pre&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;" />
+              <option name="size" value="152" />
+              <option name="time" value="22" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736961600083" />
+          <option name="id" value="482ab726-b684-4ad3-ae99-155efa3d7340" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="66fdc9b8-2915-4194-b07d-2d679c8ccf91" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="delete-user" />
+              <option name="url" value="http://localhost:3000/deleteUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CjxtZXRhIGNoYXJzZXQ9InV0Zi04Ij4KPHRpdGxlPkVycm9yPC90aXRsZT4KPC9oZWFkPgo8Ym9keT4KPHByZT5DYW5ub3QgREVMRVRFIC9kZWxldGVVc2VyPC9wcmU+CjwvYm9keT4KPC9odG1sPgo=" />
+              <option name="bodyString" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;utf-8&quot;&gt;&#10;&lt;title&gt;Error&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;pre&gt;Cannot DELETE /deleteUser&lt;/pre&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;" />
+              <option name="code" value="404" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'none'" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="152" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 17:20:00 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="482ab726-b684-4ad3-ae99-155efa3d7340" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;utf-8&quot;&gt;&#10;&lt;title&gt;Error&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;pre&gt;Cannot DELETE /deleteUser&lt;/pre&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;" />
+              <option name="size" value="152" />
+              <option name="time" value="2" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736961606624" />
+          <option name="id" value="e56d3ac4-2d7a-4e08-b12f-a2e2c8330792" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="66fdc9b8-2915-4194-b07d-2d679c8ccf91" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="delete-user" />
+              <option name="url" value="http://localhost:3000/deleteUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVXNlciBkZWxldGVkIHN1Y2Nlc3NmdWxseSJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;User deleted successfully&quot;&#10;}" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="39" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;27-27o4zzUjhHNmthTJyia4gBCjpos&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 17:20:06 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="e56d3ac4-2d7a-4e08-b12f-a2e2c8330792" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;User deleted successfully&quot;}" />
+              <option name="size" value="39" />
+              <option name="time" value="265" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736961683972" />
+          <option name="id" value="5c81fa2c-2e0b-4425-b32c-79b36be6f7ad" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="66fdc9b8-2915-4194-b07d-2d679c8ccf91" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="delete-user" />
+              <option name="url" value="http://localhost:3000/deleteUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVXNlciBkZWxldGVkIHN1Y2Nlc3NmdWxseSJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;User deleted successfully&quot;&#10;}" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="39" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;27-27o4zzUjhHNmthTJyia4gBCjpos&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 17:21:23 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="5c81fa2c-2e0b-4425-b32c-79b36be6f7ad" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;User deleted successfully&quot;}" />
+              <option name="size" value="39" />
+              <option name="time" value="188" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736965089320" />
+          <option name="id" value="7c037919-37cc-48e8-b82c-0fa0dde55a57" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="66fdc9b8-2915-4194-b07d-2d679c8ccf91" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="delete-user" />
+              <option name="url" value="http://localhost:3000/deleteUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVXNlciBkZWxldGVkIHN1Y2Nlc3NmdWxseSJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;User deleted successfully&quot;&#10;}" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="39" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;27-27o4zzUjhHNmthTJyia4gBCjpos&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 18:18:09 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="7c037919-37cc-48e8-b82c-0fa0dde55a57" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;User deleted successfully&quot;}" />
+              <option name="size" value="39" />
+              <option name="time" value="138" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736965090217" />
+          <option name="id" value="793a474d-e16d-4ed8-a504-89f173bf1d3f" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="66fdc9b8-2915-4194-b07d-2d679c8ccf91" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="delete-user" />
+              <option name="url" value="http://localhost:3000/deleteUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="e30=" />
+              <option name="bodyString" value="{}" />
+              <option name="code" value="404" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="2" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 18:18:10 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="793a474d-e16d-4ed8-a504-89f173bf1d3f" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{}" />
+              <option name="size" value="2" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736965090639" />
+          <option name="id" value="a63d435b-239b-4752-b134-361fc5df6bd0" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="66fdc9b8-2915-4194-b07d-2d679c8ccf91" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="delete-user" />
+              <option name="url" value="http://localhost:3000/deleteUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="e30=" />
+              <option name="bodyString" value="{}" />
+              <option name="code" value="404" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="2" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 18:18:10 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="a63d435b-239b-4752-b134-361fc5df6bd0" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{}" />
+              <option name="size" value="2" />
+              <option name="time" value="3" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736966533705" />
+          <option name="id" value="a3f11a21-8c73-4a3a-be83-69201cac911d" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
+              <option name="method" value="GET" />
+              <option name="name" value="find-user" />
+              <option name="url" value="http://localhost:3000/findUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDE1IGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 15 de janeiro de 2025.&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="82" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;52-SZbsX1/AFzrT3maJVCnidmKCz/I&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 18:42:13 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="a3f11a21-8c73-4a3a-be83-69201cac911d" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 15 de janeiro de 2025.&quot;}" />
+              <option name="size" value="82" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736966534347" />
+          <option name="id" value="e3523be6-7ce9-4394-b50f-6440dc83e187" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
+              <option name="method" value="GET" />
+              <option name="name" value="find-user" />
+              <option name="url" value="http://localhost:3000/findUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDE1IGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 15 de janeiro de 2025.&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="82" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;52-SZbsX1/AFzrT3maJVCnidmKCz/I&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 18:42:14 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="e3523be6-7ce9-4394-b50f-6440dc83e187" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 15 de janeiro de 2025.&quot;}" />
+              <option name="size" value="82" />
+              <option name="time" value="6" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736966547529" />
+          <option name="id" value="77d246fc-6ae8-4aef-a5bb-f0a151d4a578" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
+              <option name="method" value="GET" />
+              <option name="name" value="find-user" />
+              <option name="url" value="http://localhost:3000/findUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiQWNlc3NvIGxpYmVyYWRvIHBhcmEgbm92YXMgdGVudGF0aXZhcy4ifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Acesso liberado para novas tentativas.&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="52" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;34-C+TEumtZhA35woOPWb5/w1PCKMw&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 18:42:27 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="77d246fc-6ae8-4aef-a5bb-f0a151d4a578" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Acesso liberado para novas tentativas.&quot;}" />
+              <option name="size" value="52" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736966562235" />
+          <option name="id" value="65731e44-4bf3-4510-805f-97daf1fd3b8e" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
+              <option name="method" value="GET" />
+              <option name="name" value="find-user" />
+              <option name="url" value="http://localhost:3000/findUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiU2VuaGEgaW5jb3JyZXRhLiBWb2PDqiBhaW5kYSBwb3NzdWUgbWFpcyAzIHRlbnRhdGl2YXMuIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Senha incorreta. Você ainda possue mais 3 tentativas.&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="68" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;44-9sppbwIT30tpT8nQHRpDULRAciY&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 18:42:42 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="65731e44-4bf3-4510-805f-97daf1fd3b8e" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Senha incorreta. Você ainda possue mais 3 tentativas.&quot;}" />
+              <option name="size" value="68" />
+              <option name="time" value="6" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736966562905" />
+          <option name="id" value="1dde84b9-ed51-4626-9a83-46f1cc860216" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
+              <option name="method" value="GET" />
+              <option name="name" value="find-user" />
+              <option name="url" value="http://localhost:3000/findUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiU2VuaGEgaW5jb3JyZXRhLiBWb2PDqiBhaW5kYSBwb3NzdWUgbWFpcyAyIHRlbnRhdGl2YXMuIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Senha incorreta. Você ainda possue mais 2 tentativas.&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="68" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;44-Cao6Qp5hYiXhW7T7Um797K+L23o&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 18:42:42 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1dde84b9-ed51-4626-9a83-46f1cc860216" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Senha incorreta. Você ainda possue mais 2 tentativas.&quot;}" />
+              <option name="size" value="68" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736967567021" />
+          <option name="id" value="bd084f50-2220-4996-a78e-0eae6fc75eee" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
+              <option name="method" value="GET" />
+              <option name="name" value="find-user" />
+              <option name="url" value="http://localhost:3000/findUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiU2V1IGxvZ2luIGZvaSB0ZW1wb3JhcmlhbWVudGUgYmxvcXVlYWRvLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Seu login foi temporariamente bloqueado.&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="54" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;36-2qeOpmbfNPN+y294ZOur3OKk5+c&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 18:59:27 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="bd084f50-2220-4996-a78e-0eae6fc75eee" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Seu login foi temporariamente bloqueado.&quot;}" />
+              <option name="size" value="54" />
+              <option name="time" value="32" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736967567709" />
+          <option name="id" value="4d7a973a-ca6e-44aa-94a1-a12a2d153413" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
+              <option name="method" value="GET" />
+              <option name="name" value="find-user" />
+              <option name="url" value="http://localhost:3000/findUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDIyIGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="82" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;52-rQvAWKi5m+TSVZqHLzsEhT6ja4w&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 18:59:27 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="4d7a973a-ca6e-44aa-94a1-a12a2d153413" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
+              <option name="size" value="82" />
+              <option name="time" value="23" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736967588082" />
+          <option name="id" value="86fe3c23-ef66-4646-8135-c98c5fb20382" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
+              <option name="method" value="GET" />
+              <option name="name" value="find-user" />
+              <option name="url" value="http://localhost:3000/findUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiU2VuaGEgaW5jb3JyZXRhLiBWb2PDqiBhaW5kYSBwb3NzdWUgbWFpcyAzIHRlbnRhdGl2YXMuIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Senha incorreta. Você ainda possue mais 3 tentativas.&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="68" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;44-9sppbwIT30tpT8nQHRpDULRAciY&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 18:59:48 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="86fe3c23-ef66-4646-8135-c98c5fb20382" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Senha incorreta. Você ainda possue mais 3 tentativas.&quot;}" />
+              <option name="size" value="68" />
+              <option name="time" value="16" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736967589180" />
+          <option name="id" value="80d61cab-9ad3-4249-9fcd-72c95f709c59" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
+              <option name="method" value="GET" />
+              <option name="name" value="find-user" />
+              <option name="url" value="http://localhost:3000/findUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiU2VuaGEgaW5jb3JyZXRhLiBWb2PDqiBhaW5kYSBwb3NzdWUgbWFpcyAyIHRlbnRhdGl2YXMuIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Senha incorreta. Você ainda possue mais 2 tentativas.&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="68" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;44-Cao6Qp5hYiXhW7T7Um797K+L23o&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 18:59:49 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="80d61cab-9ad3-4249-9fcd-72c95f709c59" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Senha incorreta. Você ainda possue mais 2 tentativas.&quot;}" />
+              <option name="size" value="68" />
+              <option name="time" value="6" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736967589770" />
+          <option name="id" value="566b882e-eb60-4033-8acf-6293f3d0560f" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
+              <option name="method" value="GET" />
+              <option name="name" value="find-user" />
+              <option name="url" value="http://localhost:3000/findUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiU2V1IGxvZ2luIGZvaSB0ZW1wb3JhcmlhbWVudGUgYmxvcXVlYWRvLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Seu login foi temporariamente bloqueado.&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="54" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;36-2qeOpmbfNPN+y294ZOur3OKk5+c&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 15 Jan 2025 18:59:49 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="566b882e-eb60-4033-8acf-6293f3d0560f" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Seu login foi temporariamente bloqueado.&quot;}" />
+              <option name="size" value="54" />
+              <option name="time" value="10" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736987431449" />
+          <option name="id" value="1fb8449a-297d-4c1d-807c-5f0e06115bfa" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990-05-15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6eyJtZXNzYWdlIjoiUGFzc3dvcmQgbXVzdCBjb250YWluIGF0IGxlYXN0IG9uZSB1cHBlcmNhc2UgbGV0dGVyLCBvbmUgbG93ZXJjYXNlIGxldHRlciwgb25lIG51bWJlciwgYW5kIG9uZSBzcGVjaWFsIGNoYXJhY3RlciJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: {&#10;    &quot;message&quot;: &quot;Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character&quot;&#10;  }&#10;}" />
+              <option name="code" value="400" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="136" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;88-a+cqi8kcEGtgAK3ywLgTbTB+LZE&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 16 Jan 2025 00:30:31 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1fb8449a-297d-4c1d-807c-5f0e06115bfa" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:{&quot;message&quot;:&quot;Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character&quot;}}" />
+              <option name="size" value="136" />
+              <option name="time" value="30" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736987432375" />
+          <option name="id" value="8f0aad95-dd00-4379-99a7-9dff7d2c93e4" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990-05-15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6eyJtZXNzYWdlIjoiUGFzc3dvcmQgbXVzdCBjb250YWluIGF0IGxlYXN0IG9uZSB1cHBlcmNhc2UgbGV0dGVyLCBvbmUgbG93ZXJjYXNlIGxldHRlciwgb25lIG51bWJlciwgYW5kIG9uZSBzcGVjaWFsIGNoYXJhY3RlciJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: {&#10;    &quot;message&quot;: &quot;Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character&quot;&#10;  }&#10;}" />
+              <option name="code" value="400" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="136" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;88-a+cqi8kcEGtgAK3ywLgTbTB+LZE&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 16 Jan 2025 00:30:32 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="8f0aad95-dd00-4379-99a7-9dff7d2c93e4" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:{&quot;message&quot;:&quot;Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character&quot;}}" />
+              <option name="size" value="136" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736987456550" />
+          <option name="id" value="552a45ff-281f-4f58-a716-3cd59bf2c51b" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990-05-15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6eyJtZXNzYWdlIjoiSW52YWxpZCBkYXRlIGZvcm1hdCJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: {&#10;    &quot;message&quot;: &quot;Invalid date format&quot;&#10;  }&#10;}" />
+              <option name="code" value="400" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="43" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;2b-PU6DJXBd5j5PeA/cnjWbA6GRbqo&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 16 Jan 2025 00:30:56 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="552a45ff-281f-4f58-a716-3cd59bf2c51b" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:{&quot;message&quot;:&quot;Invalid date format&quot;}}" />
+              <option name="size" value="43" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736987525507" />
+          <option name="id" value="d18c21f5-ecd5-4840-898e-1feafe87fd0e" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990-05-15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6eyJtZXNzYWdlIjoiSW52YWxpZCBkYXRlIGZvcm1hdCJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: {&#10;    &quot;message&quot;: &quot;Invalid date format&quot;&#10;  }&#10;}" />
+              <option name="code" value="400" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="43" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;2b-PU6DJXBd5j5PeA/cnjWbA6GRbqo&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 16 Jan 2025 00:32:05 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="d18c21f5-ecd5-4840-898e-1feafe87fd0e" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:{&quot;message&quot;:&quot;Invalid date format&quot;}}" />
+              <option name="size" value="43" />
+              <option name="time" value="25" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736987526166" />
+          <option name="id" value="5227e71d-12f6-499b-95f3-735d1d821958" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990-05-15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6eyJtZXNzYWdlIjoiSW52YWxpZCBkYXRlIGZvcm1hdCJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: {&#10;    &quot;message&quot;: &quot;Invalid date format&quot;&#10;  }&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="43" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;2b-PU6DJXBd5j5PeA/cnjWbA6GRbqo&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 16 Jan 2025 00:32:06 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="5227e71d-12f6-499b-95f3-735d1d821958" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:{&quot;message&quot;:&quot;Invalid date format&quot;}}" />
+              <option name="size" value="43" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736987623310" />
+          <option name="id" value="1739d10e-b8ea-4a9a-a9e2-58e5b877616c" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6eyJtZXNzYWdlIjoiSW52YWxpZCBkYXRlIGZvcm1hdCJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: {&#10;    &quot;message&quot;: &quot;Invalid date format&quot;&#10;  }&#10;}" />
+              <option name="code" value="400" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="43" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;2b-PU6DJXBd5j5PeA/cnjWbA6GRbqo&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 16 Jan 2025 00:33:43 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1739d10e-b8ea-4a9a-a9e2-58e5b877616c" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:{&quot;message&quot;:&quot;Invalid date format&quot;}}" />
+              <option name="size" value="43" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736987623860" />
+          <option name="id" value="a7bda787-4fa0-4e62-aef9-95c74b14719e" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6eyJtZXNzYWdlIjoiSW52YWxpZCBkYXRlIGZvcm1hdCJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot;: {&#10;    &quot;message&quot;: &quot;Invalid date format&quot;&#10;  }&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="43" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;2b-PU6DJXBd5j5PeA/cnjWbA6GRbqo&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 16 Jan 2025 00:33:43 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="a7bda787-4fa0-4e62-aef9-95c74b14719e" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:{&quot;message&quot;:&quot;Invalid date format&quot;}}" />
+              <option name="size" value="43" />
+              <option name="time" value="3" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736987643324" />
+          <option name="id" value="e6845721-80bb-4caf-815f-1b23253e79a0" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVXN1w6FyaW8gamEgZXhpc3RlbnRlLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Usuário ja existente.&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="36" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;24-746wu6mKtBZrbpM+2e3PvZbM63A&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 16 Jan 2025 00:34:03 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="e6845721-80bb-4caf-815f-1b23253e79a0" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Usuário ja existente.&quot;}" />
+              <option name="size" value="36" />
+              <option name="time" value="34" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736987644327" />
+          <option name="id" value="e0b73f1c-1986-42bd-8120-a9325cfa0834" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVXN1w6FyaW8gamEgZXhpc3RlbnRlLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Usuário ja existente.&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="36" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;24-746wu6mKtBZrbpM+2e3PvZbM63A&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 16 Jan 2025 00:34:04 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="e0b73f1c-1986-42bd-8120-a9325cfa0834" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Usuário ja existente.&quot;}" />
+              <option name="size" value="36" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1736987644576" />
+          <option name="id" value="2ee392f5-6189-4a33-acaa-0910c552f514" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVXN1w6FyaW8gamEgZXhpc3RlbnRlLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Usuário ja existente.&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="36" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;24-746wu6mKtBZrbpM+2e3PvZbM63A&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 16 Jan 2025 00:34:04 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="2ee392f5-6189-4a33-acaa-0910c552f514" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Usuário ja existente.&quot;}" />
+              <option name="size" value="36" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+      </list>
+    </option>
+  </component>
+</project>
