@@ -8,7 +8,6 @@ export class CryptoHelper {
         encrypted += cipher.final('hex');
         return encrypted;
     }
-
     static decrypt(text: string) {
         const decipher = crypto.createDecipheriv(algorithm, key, iv);
         decipher.setAutoPadding(false);
