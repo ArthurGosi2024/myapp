@@ -13,7 +13,7 @@ export class UserController {
 
     private service: UserService;
 
-    constructor(private userService: UserService) {
+    constructor() {
         this.service = new UserService();
     }
 
