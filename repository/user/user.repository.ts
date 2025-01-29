@@ -54,7 +54,7 @@ export class UserRepository extends DatabaseInfra implements IContractRepository
                     create: {
                         failedLoginAttempts: 0,
                         confirmEmailAccount: false,
-                        confirmEmailExpiration: "",
+                        confirmEmailExpiration: 0n,
                         confirmEmailToken: '',
                         lockUntil: 0,
                         isAccountLocked: false,
