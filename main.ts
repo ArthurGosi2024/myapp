@@ -1,11 +1,10 @@
 import Express, {NextFunction, Request, Response} from 'express';
-import {UserController} from "./controller/user.controller";
+import {UserController} from "./controller/user/user.controller";
 import {routes} from "./decorators/router.decorators";
 import helmet from "helmet";
-import session, {MemoryStore} from 'express-session'
+import session from 'express-session'
 
 const app = Express();
-
 
 app.use(Express.json())
 app.use(Express.urlencoded({extended: true}))
@@ -21,7 +20,6 @@ app.use(session({
         },
     })
 );
-
 
 const userController = new UserController();
 
@@ -40,3 +38,5 @@ process.once('SIGINT', () => {
     console.log("Conexão com o bando de dados, encerrada com sucesso.")
     process.exit();
 });
+
+
