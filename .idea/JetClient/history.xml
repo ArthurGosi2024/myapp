@@ -683,666 +683,8 @@
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1736987431449" />
-          <option name="id" value="1fb8449a-297d-4c1d-807c-5f0e06115bfa" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990-05-15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
-              <option name="method" value="POST" />
-              <option name="name" value="create-user" />
-              <option name="url" value="http://localhost:3000/insert" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJlcnJvciI6eyJtZXNzYWdlIjoiUGFzc3dvcmQgbXVzdCBjb250YWluIGF0IGxlYXN0IG9uZSB1cHBlcmNhc2UgbGV0dGVyLCBvbmUgbG93ZXJjYXNlIGxldHRlciwgb25lIG51bWJlciwgYW5kIG9uZSBzcGVjaWFsIGNoYXJhY3RlciJ9fQ==" />
-              <option name="bodyString" value="{&#10;  &quot;error&quot;: {&#10;    &quot;message&quot;: &quot;Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character&quot;&#10;  }&#10;}" />
-              <option name="code" value="400" />
-              <option name="connectionEstablishingTime" value="3" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="136" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;88-a+cqi8kcEGtgAK3ywLgTbTB+LZE&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Thu, 16 Jan 2025 00:30:31 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="1fb8449a-297d-4c1d-807c-5f0e06115bfa" />
-              <option name="message" value="Bad Request" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;error&quot;:{&quot;message&quot;:&quot;Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character&quot;}}" />
-              <option name="size" value="136" />
-              <option name="time" value="30" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1736987432375" />
-          <option name="id" value="8f0aad95-dd00-4379-99a7-9dff7d2c93e4" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990-05-15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
-              <option name="method" value="POST" />
-              <option name="name" value="create-user" />
-              <option name="url" value="http://localhost:3000/insert" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJlcnJvciI6eyJtZXNzYWdlIjoiUGFzc3dvcmQgbXVzdCBjb250YWluIGF0IGxlYXN0IG9uZSB1cHBlcmNhc2UgbGV0dGVyLCBvbmUgbG93ZXJjYXNlIGxldHRlciwgb25lIG51bWJlciwgYW5kIG9uZSBzcGVjaWFsIGNoYXJhY3RlciJ9fQ==" />
-              <option name="bodyString" value="{&#10;  &quot;error&quot;: {&#10;    &quot;message&quot;: &quot;Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character&quot;&#10;  }&#10;}" />
-              <option name="code" value="400" />
-              <option name="connectionEstablishingTime" value="1" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="136" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;88-a+cqi8kcEGtgAK3ywLgTbTB+LZE&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Thu, 16 Jan 2025 00:30:32 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="8f0aad95-dd00-4379-99a7-9dff7d2c93e4" />
-              <option name="message" value="Bad Request" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;error&quot;:{&quot;message&quot;:&quot;Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character&quot;}}" />
-              <option name="size" value="136" />
-              <option name="time" value="5" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1736987456550" />
-          <option name="id" value="552a45ff-281f-4f58-a716-3cd59bf2c51b" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990-05-15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
-              <option name="method" value="POST" />
-              <option name="name" value="create-user" />
-              <option name="url" value="http://localhost:3000/insert" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJlcnJvciI6eyJtZXNzYWdlIjoiSW52YWxpZCBkYXRlIGZvcm1hdCJ9fQ==" />
-              <option name="bodyString" value="{&#10;  &quot;error&quot;: {&#10;    &quot;message&quot;: &quot;Invalid date format&quot;&#10;  }&#10;}" />
-              <option name="code" value="400" />
-              <option name="connectionEstablishingTime" value="1" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="43" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;2b-PU6DJXBd5j5PeA/cnjWbA6GRbqo&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Thu, 16 Jan 2025 00:30:56 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="552a45ff-281f-4f58-a716-3cd59bf2c51b" />
-              <option name="message" value="Bad Request" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;error&quot;:{&quot;message&quot;:&quot;Invalid date format&quot;}}" />
-              <option name="size" value="43" />
-              <option name="time" value="4" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1736987525507" />
-          <option name="id" value="d18c21f5-ecd5-4840-898e-1feafe87fd0e" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990-05-15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
-              <option name="method" value="POST" />
-              <option name="name" value="create-user" />
-              <option name="url" value="http://localhost:3000/insert" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJlcnJvciI6eyJtZXNzYWdlIjoiSW52YWxpZCBkYXRlIGZvcm1hdCJ9fQ==" />
-              <option name="bodyString" value="{&#10;  &quot;error&quot;: {&#10;    &quot;message&quot;: &quot;Invalid date format&quot;&#10;  }&#10;}" />
-              <option name="code" value="400" />
-              <option name="connectionEstablishingTime" value="2" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="43" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;2b-PU6DJXBd5j5PeA/cnjWbA6GRbqo&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Thu, 16 Jan 2025 00:32:05 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="d18c21f5-ecd5-4840-898e-1feafe87fd0e" />
-              <option name="message" value="Bad Request" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;error&quot;:{&quot;message&quot;:&quot;Invalid date format&quot;}}" />
-              <option name="size" value="43" />
-              <option name="time" value="25" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1736987526166" />
-          <option name="id" value="5227e71d-12f6-499b-95f3-735d1d821958" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990-05-15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
-              <option name="method" value="POST" />
-              <option name="name" value="create-user" />
-              <option name="url" value="http://localhost:3000/insert" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJlcnJvciI6eyJtZXNzYWdlIjoiSW52YWxpZCBkYXRlIGZvcm1hdCJ9fQ==" />
-              <option name="bodyString" value="{&#10;  &quot;error&quot;: {&#10;    &quot;message&quot;: &quot;Invalid date format&quot;&#10;  }&#10;}" />
-              <option name="code" value="400" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="43" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;2b-PU6DJXBd5j5PeA/cnjWbA6GRbqo&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Thu, 16 Jan 2025 00:32:06 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="5227e71d-12f6-499b-95f3-735d1d821958" />
-              <option name="message" value="Bad Request" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;error&quot;:{&quot;message&quot;:&quot;Invalid date format&quot;}}" />
-              <option name="size" value="43" />
-              <option name="time" value="4" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1736987623310" />
-          <option name="id" value="1739d10e-b8ea-4a9a-a9e2-58e5b877616c" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
-              <option name="method" value="POST" />
-              <option name="name" value="create-user" />
-              <option name="url" value="http://localhost:3000/insert" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJlcnJvciI6eyJtZXNzYWdlIjoiSW52YWxpZCBkYXRlIGZvcm1hdCJ9fQ==" />
-              <option name="bodyString" value="{&#10;  &quot;error&quot;: {&#10;    &quot;message&quot;: &quot;Invalid date format&quot;&#10;  }&#10;}" />
-              <option name="code" value="400" />
-              <option name="connectionEstablishingTime" value="1" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="43" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;2b-PU6DJXBd5j5PeA/cnjWbA6GRbqo&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Thu, 16 Jan 2025 00:33:43 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="1739d10e-b8ea-4a9a-a9e2-58e5b877616c" />
-              <option name="message" value="Bad Request" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;error&quot;:{&quot;message&quot;:&quot;Invalid date format&quot;}}" />
-              <option name="size" value="43" />
-              <option name="time" value="5" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1736987623860" />
-          <option name="id" value="a7bda787-4fa0-4e62-aef9-95c74b14719e" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
-              <option name="method" value="POST" />
-              <option name="name" value="create-user" />
-              <option name="url" value="http://localhost:3000/insert" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJlcnJvciI6eyJtZXNzYWdlIjoiSW52YWxpZCBkYXRlIGZvcm1hdCJ9fQ==" />
-              <option name="bodyString" value="{&#10;  &quot;error&quot;: {&#10;    &quot;message&quot;: &quot;Invalid date format&quot;&#10;  }&#10;}" />
-              <option name="code" value="400" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="43" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;2b-PU6DJXBd5j5PeA/cnjWbA6GRbqo&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Thu, 16 Jan 2025 00:33:43 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="a7bda787-4fa0-4e62-aef9-95c74b14719e" />
-              <option name="message" value="Bad Request" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;error&quot;:{&quot;message&quot;:&quot;Invalid date format&quot;}}" />
-              <option name="size" value="43" />
-              <option name="time" value="3" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1736987643324" />
-          <option name="id" value="e6845721-80bb-4caf-815f-1b23253e79a0" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
-              <option name="method" value="POST" />
-              <option name="name" value="create-user" />
-              <option name="url" value="http://localhost:3000/insert" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVXN1w6FyaW8gamEgZXhpc3RlbnRlLiJ9" />
-              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Usuário ja existente.&quot;&#10;}" />
-              <option name="code" value="409" />
-              <option name="connectionEstablishingTime" value="1" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="36" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;24-746wu6mKtBZrbpM+2e3PvZbM63A&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Thu, 16 Jan 2025 00:34:03 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="e6845721-80bb-4caf-815f-1b23253e79a0" />
-              <option name="message" value="Conflict" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Usuário ja existente.&quot;}" />
-              <option name="size" value="36" />
-              <option name="time" value="34" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1736987644327" />
-          <option name="id" value="e0b73f1c-1986-42bd-8120-a9325cfa0834" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
-              <option name="method" value="POST" />
-              <option name="name" value="create-user" />
-              <option name="url" value="http://localhost:3000/insert" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVXN1w6FyaW8gamEgZXhpc3RlbnRlLiJ9" />
-              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Usuário ja existente.&quot;&#10;}" />
-              <option name="code" value="409" />
-              <option name="connectionEstablishingTime" value="1" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="36" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;24-746wu6mKtBZrbpM+2e3PvZbM63A&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Thu, 16 Jan 2025 00:34:04 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="e0b73f1c-1986-42bd-8120-a9325cfa0834" />
-              <option name="message" value="Conflict" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Usuário ja existente.&quot;}" />
-              <option name="size" value="36" />
-              <option name="time" value="5" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1736987644576" />
-          <option name="id" value="2ee392f5-6189-4a33-acaa-0910c552f514" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
-              <option name="method" value="POST" />
-              <option name="name" value="create-user" />
-              <option name="url" value="http://localhost:3000/insert" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVXN1w6FyaW8gamEgZXhpc3RlbnRlLiJ9" />
-              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Usuário ja existente.&quot;&#10;}" />
-              <option name="code" value="409" />
-              <option name="connectionEstablishingTime" value="1" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="36" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;24-746wu6mKtBZrbpM+2e3PvZbM63A&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Thu, 16 Jan 2025 00:34:04 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="2ee392f5-6189-4a33-acaa-0910c552f514" />
-              <option name="message" value="Conflict" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Usuário ja existente.&quot;}" />
-              <option name="size" value="36" />
-              <option name="time" value="4" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1737071804179" />
-          <option name="id" value="675316fd-a428-41e2-a73c-13edbbdd5b42" />
+          <option name="dateTime" value="1737072911866" />
+          <option name="id" value="edc80938-1661-4552-9847-64dc51d92415" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -1362,7 +704,6 @@
               <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDIyIGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
               <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;&#10;}" />
               <option name="code" value="409" />
-              <option name="connectionEstablishingTime" value="1" />
               <option name="contentType" value="application/json; charset=utf-8" />
               <option name="headers">
                 <list>
@@ -1428,7 +769,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Thu, 16 Jan 2025 23:56:44 GMT" />
+                    <option name="value" value="Fri, 17 Jan 2025 00:15:11 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Connection" />
@@ -1440,19 +781,19 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="675316fd-a428-41e2-a73c-13edbbdd5b42" />
+              <option name="id" value="edc80938-1661-4552-9847-64dc51d92415" />
               <option name="message" value="Conflict" />
               <option name="prettyResponseType" value="JSON" />
               <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
               <option name="size" value="82" />
-              <option name="time" value="4" />
+              <option name="time" value="7" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1737071823789" />
-          <option name="id" value="7b96d7fb-658d-4829-81c9-83ffd0de548a" />
+          <option name="dateTime" value="1737072912281" />
+          <option name="id" value="89eabce1-feb4-481f-b289-380ed469fedc" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -1472,7 +813,6 @@
               <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDIyIGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
               <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;&#10;}" />
               <option name="code" value="409" />
-              <option name="connectionEstablishingTime" value="2" />
               <option name="contentType" value="application/json; charset=utf-8" />
               <option name="headers">
                 <list>
@@ -1537,12 +877,8 @@
                     <option name="value" value="W/&quot;52-rQvAWKi5m+TSVZqHLzsEhT6ja4w&quot;" />
                   </headerState>
                   <headerState>
-                    <option name="key" value="Set-Cookie" />
-                    <option name="value" value="connect.sid=s%3AS04tvBD7YTkkmUA1hJy6GseHzn0MHSJv.GojdNtHfdrV0ojkZPE51ktP0EkwC7m6Cc0RPlSEi44g; Path=/; Expires=Thu, 16 Jan 2025 23:58:03 GMT; HttpOnly" />
-                  </headerState>
-                  <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Thu, 16 Jan 2025 23:57:03 GMT" />
+                    <option name="value" value="Fri, 17 Jan 2025 00:15:12 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Connection" />
@@ -1554,19 +890,19 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="7b96d7fb-658d-4829-81c9-83ffd0de548a" />
+              <option name="id" value="89eabce1-feb4-481f-b289-380ed469fedc" />
               <option name="message" value="Conflict" />
               <option name="prettyResponseType" value="JSON" />
               <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
               <option name="size" value="82" />
-              <option name="time" value="53" />
+              <option name="time" value="7" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1737071824616" />
-          <option name="id" value="d0cb2112-db8a-434d-966a-20e9f34d44a8" />
+          <option name="dateTime" value="1737072912463" />
+          <option name="id" value="fbf15149-9310-42b7-b647-5f675da8528c" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -1652,7 +988,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Thu, 16 Jan 2025 23:57:04 GMT" />
+                    <option name="value" value="Fri, 17 Jan 2025 00:15:12 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Connection" />
@@ -1664,7 +1000,7 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="d0cb2112-db8a-434d-966a-20e9f34d44a8" />
+              <option name="id" value="fbf15149-9310-42b7-b647-5f675da8528c" />
               <option name="message" value="Conflict" />
               <option name="prettyResponseType" value="JSON" />
               <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
@@ -1675,122 +1011,8 @@
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1737072220509" />
-          <option name="id" value="ed142b53-2a62-47f2-905c-6905db12582d" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
-              <option name="method" value="GET" />
-              <option name="name" value="find-user" />
-              <option name="url" value="http://localhost:3000/findUser" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDIyIGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;&#10;}" />
-              <option name="code" value="409" />
-              <option name="connectionEstablishingTime" value="2" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Security-Policy" />
-                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Resource-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Origin-Agent-Cluster" />
-                    <option name="value" value="?1" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="no-referrer" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Strict-Transport-Security" />
-                    <option name="value" value="max-age=31536000; includeSubDomains" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-DNS-Prefetch-Control" />
-                    <option name="value" value="off" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Download-Options" />
-                    <option name="value" value="noopen" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="SAMEORIGIN" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
-                    <option name="value" value="none" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-XSS-Protection" />
-                    <option name="value" value="0" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="82" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;52-rQvAWKi5m+TSVZqHLzsEhT6ja4w&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Set-Cookie" />
-                    <option name="value" value="connect.sid=s%3Ap3Uw1ct_t0YVgwLQtGfcgvaeI9Ynq0Kt.l9H9KTzobQu7e5jHgt%2B6iExI72eH8Sw41K0xfBMfClI; Path=/; Expires=Fri, 17 Jan 2025 00:04:40 GMT; HttpOnly" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 17 Jan 2025 00:03:40 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="ed142b53-2a62-47f2-905c-6905db12582d" />
-              <option name="message" value="Conflict" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
-              <option name="size" value="82" />
-              <option name="time" value="52" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1737072221709" />
-          <option name="id" value="9c524f1b-dbac-4e62-bffb-b70e5f9348ed" />
+          <option name="dateTime" value="1737072912638" />
+          <option name="id" value="01390097-1059-4fd0-bf40-a0463748ef4e" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -1876,7 +1098,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Fri, 17 Jan 2025 00:03:41 GMT" />
+                    <option name="value" value="Fri, 17 Jan 2025 00:15:12 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Connection" />
@@ -1888,7 +1110,7 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="9c524f1b-dbac-4e62-bffb-b70e5f9348ed" />
+              <option name="id" value="01390097-1059-4fd0-bf40-a0463748ef4e" />
               <option name="message" value="Conflict" />
               <option name="prettyResponseType" value="JSON" />
               <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
@@ -1899,8 +1121,8 @@
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1737072267372" />
-          <option name="id" value="2c5c4b23-431b-43ad-ba3c-7e95b82d5f1e" />
+          <option name="dateTime" value="1737072912821" />
+          <option name="id" value="71dac472-f99d-4ea5-837a-6b558997fb6d" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -1920,6 +1142,892 @@
               <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDIyIGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
               <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;&#10;}" />
               <option name="code" value="409" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Resource-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Origin-Agent-Cluster" />
+                    <option name="value" value="?1" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="no-referrer" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Strict-Transport-Security" />
+                    <option name="value" value="max-age=31536000; includeSubDomains" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-DNS-Prefetch-Control" />
+                    <option name="value" value="off" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Download-Options" />
+                    <option name="value" value="noopen" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="SAMEORIGIN" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
+                    <option name="value" value="none" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="82" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;52-rQvAWKi5m+TSVZqHLzsEhT6ja4w&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 17 Jan 2025 00:15:12 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="71dac472-f99d-4ea5-837a-6b558997fb6d" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
+              <option name="size" value="82" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1737072913008" />
+          <option name="id" value="e7d08b86-2ded-4f96-ae41-7dc703d1be03" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
+              <option name="method" value="GET" />
+              <option name="name" value="find-user" />
+              <option name="url" value="http://localhost:3000/findUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDIyIGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Resource-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Origin-Agent-Cluster" />
+                    <option name="value" value="?1" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="no-referrer" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Strict-Transport-Security" />
+                    <option name="value" value="max-age=31536000; includeSubDomains" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-DNS-Prefetch-Control" />
+                    <option name="value" value="off" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Download-Options" />
+                    <option name="value" value="noopen" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="SAMEORIGIN" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
+                    <option name="value" value="none" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="82" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;52-rQvAWKi5m+TSVZqHLzsEhT6ja4w&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 17 Jan 2025 00:15:13 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="e7d08b86-2ded-4f96-ae41-7dc703d1be03" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
+              <option name="size" value="82" />
+              <option name="time" value="7" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1737072913208" />
+          <option name="id" value="99bcd994-403d-4b28-b358-3f44cb9c6773" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
+              <option name="method" value="GET" />
+              <option name="name" value="find-user" />
+              <option name="url" value="http://localhost:3000/findUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDIyIGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Resource-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Origin-Agent-Cluster" />
+                    <option name="value" value="?1" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="no-referrer" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Strict-Transport-Security" />
+                    <option name="value" value="max-age=31536000; includeSubDomains" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-DNS-Prefetch-Control" />
+                    <option name="value" value="off" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Download-Options" />
+                    <option name="value" value="noopen" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="SAMEORIGIN" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
+                    <option name="value" value="none" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="82" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;52-rQvAWKi5m+TSVZqHLzsEhT6ja4w&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 17 Jan 2025 00:15:13 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="99bcd994-403d-4b28-b358-3f44cb9c6773" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
+              <option name="size" value="82" />
+              <option name="time" value="7" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1737072913399" />
+          <option name="id" value="fa1a8db5-4868-4540-9cb2-34504dda4d63" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
+              <option name="method" value="GET" />
+              <option name="name" value="find-user" />
+              <option name="url" value="http://localhost:3000/findUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDIyIGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Resource-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Origin-Agent-Cluster" />
+                    <option name="value" value="?1" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="no-referrer" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Strict-Transport-Security" />
+                    <option name="value" value="max-age=31536000; includeSubDomains" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-DNS-Prefetch-Control" />
+                    <option name="value" value="off" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Download-Options" />
+                    <option name="value" value="noopen" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="SAMEORIGIN" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
+                    <option name="value" value="none" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="82" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;52-rQvAWKi5m+TSVZqHLzsEhT6ja4w&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 17 Jan 2025 00:15:13 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="fa1a8db5-4868-4540-9cb2-34504dda4d63" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
+              <option name="size" value="82" />
+              <option name="time" value="6" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1737072913597" />
+          <option name="id" value="3f92ebe7-5b1e-4ce7-8bbb-3058e4f05db5" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
+              <option name="method" value="GET" />
+              <option name="name" value="find-user" />
+              <option name="url" value="http://localhost:3000/findUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDIyIGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Resource-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Origin-Agent-Cluster" />
+                    <option name="value" value="?1" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="no-referrer" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Strict-Transport-Security" />
+                    <option name="value" value="max-age=31536000; includeSubDomains" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-DNS-Prefetch-Control" />
+                    <option name="value" value="off" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Download-Options" />
+                    <option name="value" value="noopen" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="SAMEORIGIN" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
+                    <option name="value" value="none" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="82" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;52-rQvAWKi5m+TSVZqHLzsEhT6ja4w&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 17 Jan 2025 00:15:13 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="3f92ebe7-5b1e-4ce7-8bbb-3058e4f05db5" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
+              <option name="size" value="82" />
+              <option name="time" value="6" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1737072936715" />
+          <option name="id" value="0d071f88-7031-438e-adf6-da1e8c4406b3" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
+              <option name="method" value="GET" />
+              <option name="name" value="find-user" />
+              <option name="url" value="http://localhost:3000/findUser" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDIyIGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;&#10;}" />
+              <option name="code" value="409" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Resource-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Origin-Agent-Cluster" />
+                    <option name="value" value="?1" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="no-referrer" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Strict-Transport-Security" />
+                    <option name="value" value="max-age=31536000; includeSubDomains" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-DNS-Prefetch-Control" />
+                    <option name="value" value="off" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Download-Options" />
+                    <option name="value" value="noopen" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="SAMEORIGIN" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
+                    <option name="value" value="none" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="82" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;52-rQvAWKi5m+TSVZqHLzsEhT6ja4w&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Set-Cookie" />
+                    <option name="value" value="connect.sid=s%3AZisfl7Y5QmfNacnfl_VWL4CkHiH-qleU.IxUCDt6KvJOcPlvfSjkEUshLXk16snvBt7qjTcu6%2BoQ; Path=/; Expires=Fri, 17 Jan 2025 00:16:36 GMT; HttpOnly" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 17 Jan 2025 00:15:36 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="0d071f88-7031-438e-adf6-da1e8c4406b3" />
+              <option name="message" value="Conflict" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
+              <option name="size" value="82" />
+              <option name="time" value="158" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1738016631850" />
+          <option name="id" value="b5c401fa-192b-4b3d-934e-738f777a7bb7" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;arthurgosi.oficial@gmail.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVW0gdG9rZW4sIGZvaSBlbnZpYWRvIHBhcmEgbyBzZXUgZW1haWwsIHV0aWxpemUgcGFyYSBjb25maXJtYS1sbyBlbSBub3NzbyBzaXRlLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;&#10;}" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Resource-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Origin-Agent-Cluster" />
+                    <option name="value" value="?1" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="no-referrer" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Strict-Transport-Security" />
+                    <option name="value" value="max-age=31536000; includeSubDomains" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-DNS-Prefetch-Control" />
+                    <option name="value" value="off" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Download-Options" />
+                    <option name="value" value="noopen" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="SAMEORIGIN" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
+                    <option name="value" value="none" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="93" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;5d-l1ZQbFOokLOvpwBdxYUwLoGunPU&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 27 Jan 2025 22:23:51 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b5c401fa-192b-4b3d-934e-738f777a7bb7" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;}" />
+              <option name="size" value="93" />
+              <option name="time" value="520" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1738016687514" />
+          <option name="id" value="12f88112-bc94-46e6-89f1-f2b8a61e8164" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;arthurgosi.oficial@gmail.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVW0gdG9rZW4sIGZvaSBlbnZpYWRvIHBhcmEgbyBzZXUgZW1haWwsIHV0aWxpemUgcGFyYSBjb25maXJtYS1sbyBlbSBub3NzbyBzaXRlLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;&#10;}" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Resource-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Origin-Agent-Cluster" />
+                    <option name="value" value="?1" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="no-referrer" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Strict-Transport-Security" />
+                    <option name="value" value="max-age=31536000; includeSubDomains" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-DNS-Prefetch-Control" />
+                    <option name="value" value="off" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Download-Options" />
+                    <option name="value" value="noopen" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="SAMEORIGIN" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
+                    <option name="value" value="none" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="93" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;5d-l1ZQbFOokLOvpwBdxYUwLoGunPU&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Set-Cookie" />
+                    <option name="value" value="connect.sid=s%3AdDn67h8ukHgFaBy6BbuJYYARxV2QMsHu.q3IWVYYe%2FWg7xtcc7SDFR8Vx1KGHj%2FgIup4mtIEnHVI; Path=/; Expires=Mon, 27 Jan 2025 22:25:47 GMT; HttpOnly" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 27 Jan 2025 22:24:47 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="12f88112-bc94-46e6-89f1-f2b8a61e8164" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;}" />
+              <option name="size" value="93" />
+              <option name="time" value="823" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1738016997166" />
+          <option name="id" value="fbc15349-171e-4cf5-82cd-6102e45a195d" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;arthurgosi.oficial@gmail.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVW0gdG9rZW4sIGZvaSBlbnZpYWRvIHBhcmEgbyBzZXUgZW1haWwsIHV0aWxpemUgcGFyYSBjb25maXJtYS1sbyBlbSBub3NzbyBzaXRlLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;&#10;}" />
+              <option name="code" value="201" />
               <option name="connectionEstablishingTime" value="3" />
               <option name="contentType" value="application/json; charset=utf-8" />
               <option name="headers">
@@ -1978,19 +2086,19 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
-                    <option name="value" value="82" />
+                    <option name="value" value="93" />
                   </headerState>
                   <headerState>
                     <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;52-rQvAWKi5m+TSVZqHLzsEhT6ja4w&quot;" />
+                    <option name="value" value="W/&quot;5d-l1ZQbFOokLOvpwBdxYUwLoGunPU&quot;" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Set-Cookie" />
-                    <option name="value" value="connect.sid=s%3AGn-HvDIuqDZpTCovdJfqE4Y1pQQlJjpF.rzS4%2BTGbCwGcPCGI3E5%2Be2kbcujVGEspjs9vH2OrZe0; Path=/; Expires=Fri, 17 Jan 2025 00:05:27 GMT; HttpOnly" />
+                    <option name="value" value="connect.sid=s%3Ajf7sb3LCXrTk9vWVWsfNLkLJrVGzeYeW.8Qb0tcl7yNTGNHC91fULgbgB%2FWnKW%2BzxMHiBn0o3YnA; Path=/; Expires=Mon, 27 Jan 2025 22:30:57 GMT; HttpOnly" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Fri, 17 Jan 2025 00:04:27 GMT" />
+                    <option name="value" value="Mon, 27 Jan 2025 22:29:57 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Connection" />
@@ -2002,38 +2110,38 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="2c5c4b23-431b-43ad-ba3c-7e95b82d5f1e" />
-              <option name="message" value="Conflict" />
+              <option name="id" value="fbc15349-171e-4cf5-82cd-6102e45a195d" />
+              <option name="message" value="Created" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
-              <option name="size" value="82" />
-              <option name="time" value="58" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;}" />
+              <option name="size" value="93" />
+              <option name="time" value="804" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1737072288179" />
-          <option name="id" value="a354a98b-c422-4018-9690-06141488f4d4" />
+          <option name="dateTime" value="1738017045506" />
+          <option name="id" value="816806cc-a501-47a1-9c5e-5d88696e3c54" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;arthurgosi.oficial@gmail.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
-              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
-              <option name="method" value="GET" />
-              <option name="name" value="find-user" />
-              <option name="url" value="http://localhost:3000/findUser" />
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDIyIGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;&#10;}" />
-              <option name="code" value="409" />
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVW0gdG9rZW4sIGZvaSBlbnZpYWRvIHBhcmEgbyBzZXUgZW1haWwsIHV0aWxpemUgcGFyYSBjb25maXJtYS1sbyBlbSBub3NzbyBzaXRlLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;&#10;}" />
+              <option name="code" value="201" />
               <option name="connectionEstablishingTime" value="2" />
               <option name="contentType" value="application/json; charset=utf-8" />
               <option name="headers">
@@ -2092,19 +2200,19 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
-                    <option name="value" value="82" />
+                    <option name="value" value="93" />
                   </headerState>
                   <headerState>
                     <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;52-rQvAWKi5m+TSVZqHLzsEhT6ja4w&quot;" />
+                    <option name="value" value="W/&quot;5d-l1ZQbFOokLOvpwBdxYUwLoGunPU&quot;" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Set-Cookie" />
-                    <option name="value" value="connect.sid=s%3ACoEtjs7BeTBtA6SNnvfE7WgrI_Hyrhrb.d%2BQUlMWLQ4Lye2jFW%2BslM%2F4s%2BWKPz4LPj0TUTcRlPQg; Path=/; Expires=Fri, 17 Jan 2025 00:05:48 GMT; HttpOnly" />
+                    <option name="value" value="connect.sid=s%3AVTHNdmhGeKtfpJK_hST6X3xd_8-EY0RH.TTb9p2YucwlGK6de2tB2LyIy06nbrUX2KnKC1Yh2xzw; Path=/; Expires=Mon, 27 Jan 2025 22:31:45 GMT; HttpOnly" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Fri, 17 Jan 2025 00:04:48 GMT" />
+                    <option name="value" value="Mon, 27 Jan 2025 22:30:45 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Connection" />
@@ -2116,266 +2224,38 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="a354a98b-c422-4018-9690-06141488f4d4" />
-              <option name="message" value="Conflict" />
+              <option name="id" value="816806cc-a501-47a1-9c5e-5d88696e3c54" />
+              <option name="message" value="Created" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
-              <option name="size" value="82" />
-              <option name="time" value="55" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;}" />
+              <option name="size" value="93" />
+              <option name="time" value="751" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1737072448881" />
-          <option name="id" value="b9560c68-5e08-4b16-9992-aa2ca39829ec" />
+          <option name="dateTime" value="1738017490346" />
+          <option name="id" value="672ca4b8-a4e4-4cc5-af3e-8882bc443b7c" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;arthurgosi.oficial@gmail.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
-              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
-              <option name="method" value="GET" />
-              <option name="name" value="find-user" />
-              <option name="url" value="http://localhost:3000/findUser" />
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDIyIGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;&#10;}" />
-              <option name="code" value="409" />
-              <option name="connectionEstablishingTime" value="86" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Security-Policy" />
-                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Resource-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Origin-Agent-Cluster" />
-                    <option name="value" value="?1" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="no-referrer" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Strict-Transport-Security" />
-                    <option name="value" value="max-age=31536000; includeSubDomains" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-DNS-Prefetch-Control" />
-                    <option name="value" value="off" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Download-Options" />
-                    <option name="value" value="noopen" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="SAMEORIGIN" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
-                    <option name="value" value="none" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-XSS-Protection" />
-                    <option name="value" value="0" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="82" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;52-rQvAWKi5m+TSVZqHLzsEhT6ja4w&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Set-Cookie" />
-                    <option name="value" value="connect.sid=s%3AHeqlVrCqOeyp2xbFWxTW7vhdwzFUXaGY.QTZJm55bC%2B%2F7HKVN7v9iSL%2B188A2LwyOsKcbq9i4tlg; Path=/; Expires=Fri, 17 Jan 2025 00:08:28 GMT; HttpOnly" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 17 Jan 2025 00:07:28 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="b9560c68-5e08-4b16-9992-aa2ca39829ec" />
-              <option name="message" value="Conflict" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
-              <option name="size" value="82" />
-              <option name="time" value="147" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1737072465040" />
-          <option name="id" value="c7ec2381-34df-4efe-96eb-35abcd9ee6b1" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
-              <option name="method" value="GET" />
-              <option name="name" value="find-user" />
-              <option name="url" value="http://localhost:3000/findUser" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDIyIGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;&#10;}" />
-              <option name="code" value="409" />
-              <option name="connectionEstablishingTime" value="1" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Security-Policy" />
-                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Resource-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Origin-Agent-Cluster" />
-                    <option name="value" value="?1" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="no-referrer" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Strict-Transport-Security" />
-                    <option name="value" value="max-age=31536000; includeSubDomains" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-DNS-Prefetch-Control" />
-                    <option name="value" value="off" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Download-Options" />
-                    <option name="value" value="noopen" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="SAMEORIGIN" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
-                    <option name="value" value="none" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-XSS-Protection" />
-                    <option name="value" value="0" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="82" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;52-rQvAWKi5m+TSVZqHLzsEhT6ja4w&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Set-Cookie" />
-                    <option name="value" value="connect.sid=s%3A4u8OtnFu2fDzlH6ixyhbPWPh6mqs27nD.aDZi0CDy24IAfYEvlzpgFRBxTaRhQHsW4EJelduJJOo; Path=/; Expires=Fri, 17 Jan 2025 00:08:45 GMT; HttpOnly" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 17 Jan 2025 00:07:45 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="c7ec2381-34df-4efe-96eb-35abcd9ee6b1" />
-              <option name="message" value="Conflict" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
-              <option name="size" value="82" />
-              <option name="time" value="66" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1737072505174" />
-          <option name="id" value="afc0288d-2491-4877-9fdb-cebd555f54e8" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;john2.doe@example.com&quot;,&#10;  &quot;password&quot;: &quot;Password13!&quot;&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="9ceed3cf-8900-4098-9957-dde357bfc586" />
-              <option name="method" value="GET" />
-              <option name="name" value="find-user" />
-              <option name="url" value="http://localhost:3000/findUser" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVGVudGF0aXZhcyBibG9xdWVhZGFzLiBUZW50ZSBub3ZhbWVudGUgbm8gZGlhIDIyIGRlIGphbmVpcm8gZGUgMjAyNS4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;&#10;}" />
-              <option name="code" value="409" />
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVW0gdG9rZW4sIGZvaSBlbnZpYWRvIHBhcmEgbyBzZXUgZW1haWwsIHV0aWxpemUgcGFyYSBjb25maXJtYS1sbyBlbSBub3NzbyBzaXRlLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;&#10;}" />
+              <option name="code" value="201" />
               <option name="connectionEstablishingTime" value="2" />
               <option name="contentType" value="application/json; charset=utf-8" />
               <option name="headers">
@@ -2434,19 +2314,19 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
-                    <option name="value" value="82" />
+                    <option name="value" value="93" />
                   </headerState>
                   <headerState>
                     <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;52-rQvAWKi5m+TSVZqHLzsEhT6ja4w&quot;" />
+                    <option name="value" value="W/&quot;5d-l1ZQbFOokLOvpwBdxYUwLoGunPU&quot;" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Set-Cookie" />
-                    <option name="value" value="connect.sid=s%3ArtKB300tDdgd9Fp33OZPRXS1ptVOnw3c.g4YyhcDe8SboIKNxPKYX2qGOOMo6eVm44fJKXJR%2FxS8; Path=/; Expires=Fri, 17 Jan 2025 00:09:25 GMT; HttpOnly" />
+                    <option name="value" value="connect.sid=s%3Aj1keFcImUI38cnKF6CN8Sk1KYN2VeQOa.WVANhQqTsSIDoaBVSxS7Pl9rjTeKOSH%2B8hkp95ku2as; Path=/; Expires=Mon, 27 Jan 2025 22:39:10 GMT; HttpOnly" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Fri, 17 Jan 2025 00:08:25 GMT" />
+                    <option name="value" value="Mon, 27 Jan 2025 22:38:10 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Connection" />
@@ -2458,12 +2338,582 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="afc0288d-2491-4877-9fdb-cebd555f54e8" />
-              <option name="message" value="Conflict" />
+              <option name="id" value="672ca4b8-a4e4-4cc5-af3e-8882bc443b7c" />
+              <option name="message" value="Created" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Tentativas bloqueadas. Tente novamente no dia 22 de janeiro de 2025.&quot;}" />
-              <option name="size" value="82" />
-              <option name="time" value="56" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;}" />
+              <option name="size" value="93" />
+              <option name="time" value="769" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1738101499857" />
+          <option name="id" value="b90bfe9a-64a6-414a-a4d5-9f79bbe9c4b7" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;arthurgosi.oficial@gmail.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVW0gdG9rZW4sIGZvaSBlbnZpYWRvIHBhcmEgbyBzZXUgZW1haWwsIHV0aWxpemUgcGFyYSBjb25maXJtYS1sbyBlbSBub3NzbyBzaXRlLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;&#10;}" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="108" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Resource-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Origin-Agent-Cluster" />
+                    <option name="value" value="?1" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="no-referrer" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Strict-Transport-Security" />
+                    <option name="value" value="max-age=31536000; includeSubDomains" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-DNS-Prefetch-Control" />
+                    <option name="value" value="off" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Download-Options" />
+                    <option name="value" value="noopen" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="SAMEORIGIN" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
+                    <option name="value" value="none" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="93" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;5d-l1ZQbFOokLOvpwBdxYUwLoGunPU&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Set-Cookie" />
+                    <option name="value" value="connect.sid=s%3Ang0AHqYymocqO8OF7eT5lFv7ml8cneYc.P494ZXqABxz08RE5B2LVNdrLDORGfBuEfdQPW3BRGLA; Path=/; Expires=Tue, 28 Jan 2025 21:59:19 GMT; HttpOnly" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Tue, 28 Jan 2025 21:58:19 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b90bfe9a-64a6-414a-a4d5-9f79bbe9c4b7" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;}" />
+              <option name="size" value="93" />
+              <option name="time" value="4151" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1738101624838" />
+          <option name="id" value="c8b65766-6e6e-43e7-a9ad-219d040bbb5f" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;arthurgosi.oficial@gmail.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVW0gdG9rZW4sIGZvaSBlbnZpYWRvIHBhcmEgbyBzZXUgZW1haWwsIHV0aWxpemUgcGFyYSBjb25maXJtYS1sbyBlbSBub3NzbyBzaXRlLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;&#10;}" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Resource-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Origin-Agent-Cluster" />
+                    <option name="value" value="?1" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="no-referrer" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Strict-Transport-Security" />
+                    <option name="value" value="max-age=31536000; includeSubDomains" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-DNS-Prefetch-Control" />
+                    <option name="value" value="off" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Download-Options" />
+                    <option name="value" value="noopen" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="SAMEORIGIN" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
+                    <option name="value" value="none" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="93" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;5d-l1ZQbFOokLOvpwBdxYUwLoGunPU&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Set-Cookie" />
+                    <option name="value" value="connect.sid=s%3ATv9170Zdkzo7EUTh3Ph2fQ2vCv7Ls41U.C6ISAHUfxiDilTv0D0Zv%2Bg5ql0J3Kf%2BOLh2EVspskHw; Path=/; Expires=Tue, 28 Jan 2025 22:01:24 GMT; HttpOnly" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Tue, 28 Jan 2025 22:00:24 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c8b65766-6e6e-43e7-a9ad-219d040bbb5f" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;}" />
+              <option name="size" value="93" />
+              <option name="time" value="2719" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1738101789445" />
+          <option name="id" value="1fdbd78d-59cb-4dbb-af43-75bf55b1a9fc" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;arthurgosi.oficial@gmail.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVW0gdG9rZW4sIGZvaSBlbnZpYWRvIHBhcmEgbyBzZXUgZW1haWwsIHV0aWxpemUgcGFyYSBjb25maXJtYS1sbyBlbSBub3NzbyBzaXRlLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;&#10;}" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Resource-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Origin-Agent-Cluster" />
+                    <option name="value" value="?1" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="no-referrer" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Strict-Transport-Security" />
+                    <option name="value" value="max-age=31536000; includeSubDomains" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-DNS-Prefetch-Control" />
+                    <option name="value" value="off" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Download-Options" />
+                    <option name="value" value="noopen" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="SAMEORIGIN" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
+                    <option name="value" value="none" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="93" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;5d-l1ZQbFOokLOvpwBdxYUwLoGunPU&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Set-Cookie" />
+                    <option name="value" value="connect.sid=s%3ATRLMrKPNXSNf8-4DEVaBdheLsjIQLuWv.7WZJdgAT39hGS%2FQQOOZzCNKJK%2BlxkKtShOl9%2BIUyVMY; Path=/; Expires=Tue, 28 Jan 2025 22:04:09 GMT; HttpOnly" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Tue, 28 Jan 2025 22:03:09 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1fdbd78d-59cb-4dbb-af43-75bf55b1a9fc" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;}" />
+              <option name="size" value="93" />
+              <option name="time" value="166" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1738101891808" />
+          <option name="id" value="467edde0-fb92-4f3b-abe8-1ac7f552166f" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;arthurgosi.oficial@gmail.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVW0gdG9rZW4sIGZvaSBlbnZpYWRvIHBhcmEgbyBzZXUgZW1haWwsIHV0aWxpemUgcGFyYSBjb25maXJtYS1sbyBlbSBub3NzbyBzaXRlLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;&#10;}" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="3" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Resource-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Origin-Agent-Cluster" />
+                    <option name="value" value="?1" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="no-referrer" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Strict-Transport-Security" />
+                    <option name="value" value="max-age=31536000; includeSubDomains" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-DNS-Prefetch-Control" />
+                    <option name="value" value="off" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Download-Options" />
+                    <option name="value" value="noopen" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="SAMEORIGIN" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
+                    <option name="value" value="none" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="93" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;5d-l1ZQbFOokLOvpwBdxYUwLoGunPU&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Set-Cookie" />
+                    <option name="value" value="connect.sid=s%3AahJPYA9fuKFHcHA86_Msovg1jR--bddB.ak%2FT8Cuqjv0H%2FOuJAiFxs2zvBbjSgsQAQ%2BpRfrkx4DE; Path=/; Expires=Tue, 28 Jan 2025 22:05:51 GMT; HttpOnly" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Tue, 28 Jan 2025 22:04:51 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="467edde0-fb92-4f3b-abe8-1ac7f552166f" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;}" />
+              <option name="size" value="93" />
+              <option name="time" value="162" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1738103151734" />
+          <option name="id" value="aff5d41f-5576-4e10-87e1-6fdeb89bc12c" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;John Doe&quot;,&#10;  &quot;email&quot;: &quot;arthurgosi.oficial@gmail.com&quot;,&#10;  &quot;password&quot; : &quot;Password12!&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990/05/15&quot;,&#10;  &quot;phone&quot;: &quot;97562-7558&quot;,&#10;  &quot;age&quot;: 30&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="f2e249cd-6b41-4212-a11f-86e4675e9acc" />
+              <option name="method" value="POST" />
+              <option name="name" value="create-user" />
+              <option name="url" value="http://localhost:3000/insert" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVW0gdG9rZW4sIGZvaSBlbnZpYWRvIHBhcmEgbyBzZXUgZW1haWwsIHV0aWxpemUgcGFyYSBjb25maXJtYS1sbyBlbSBub3NzbyBzaXRlLiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;&#10;}" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Security-Policy" />
+                    <option name="value" value="default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Resource-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Origin-Agent-Cluster" />
+                    <option name="value" value="?1" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="no-referrer" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Strict-Transport-Security" />
+                    <option name="value" value="max-age=31536000; includeSubDomains" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-DNS-Prefetch-Control" />
+                    <option name="value" value="off" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Download-Options" />
+                    <option name="value" value="noopen" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="SAMEORIGIN" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Permitted-Cross-Domain-Policies" />
+                    <option name="value" value="none" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="93" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;5d-l1ZQbFOokLOvpwBdxYUwLoGunPU&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Set-Cookie" />
+                    <option name="value" value="connect.sid=s%3AVlXMN6YgGDNmktRCWp8UJygbusaoPFKb.5heIthz3%2BxBnYavetA%2FFXBExseGbyHZg2BgCLNdSsUU; Path=/; Expires=Tue, 28 Jan 2025 22:26:51 GMT; HttpOnly" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Tue, 28 Jan 2025 22:25:51 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="aff5d41f-5576-4e10-87e1-6fdeb89bc12c" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Um token, foi enviado para o seu email, utilize para confirma-lo em nosso site.&quot;}" />
+              <option name="size" value="93" />
+              <option name="time" value="175" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
