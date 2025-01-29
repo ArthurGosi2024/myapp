@@ -1,5 +1,5 @@
 // Decorator para registrar rotas
-import {Middleware} from "express-validator/lib/base";
+import { Middleware } from "express-validator/lib/base";
 
 export const routes: { path: string; method: string; middleware?: Middleware; handler: Function }[] = [];
 
