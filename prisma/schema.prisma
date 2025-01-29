@@ -36,6 +36,6 @@ model Security {
   passwordResetToken      String?
   confirmEmailAccount     Boolean
   confirmEmailToken       String
-  confirmEmailExpiration  String
+  confirmEmailExpiration  BigInt
   user                    User    @relation(fields: [userId], references: [userId], onDelete: Cascade)
 }
