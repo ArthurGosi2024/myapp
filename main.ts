@@ -3,12 +3,14 @@ import {UserController} from "./controller/user/user.controller";
 import {routes} from "./decorators/router.decorators";
 import helmet from "helmet";
 import session from 'express-session'
+import {EmailController} from "./controller/email/email.controller";
 
 const app = Express();
 
 app.use(Express.json())
 app.use(Express.urlencoded({extended: true}))
 app.use(helmet())
+
 app.use(session({
         secret: process.env.SESSION_SECRET,
         resave: true,         // Não re-salvar a sessão se não houve modificações
@@ -22,12 +24,22 @@ app.use(session({
 );
 
 const userController = new UserController();
+const emailController = new EmailController();
 
+
+const controllers = {userController, emailController};
 
 routes.forEach((route) => {
-    app[route.method](route.path, route.middleware ? route.middleware : (_r: Request, _rs: Response, next: NextFunction) => {
-        next();
-    }, route.handler.bind(userController));
+    const boundHandler = Object.values(controllers)
+        .find(ctrl => Object.getPrototypeOf(ctrl).hasOwnProperty(route.handler.name))
+        ? route.handler.bind(Object.values(controllers).find(ctrl => Object.getPrototypeOf(ctrl).hasOwnProperty(route.handler.name)))
+        : route.handler;
+
+    app[route.method](
+        route.path,
+        route.middleware || ((_, __, next) => next()),
+        boundHandler
+    );
 });
 
 app.listen(process.env.PORT, () => {
