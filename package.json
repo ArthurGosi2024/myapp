@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": " tsx  watch --env-file=.env main.ts "
+    "dev": " tsx  watch --env-file=.env main.ts ",
+    "build": "babel src -d dist"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1",
     "connect-redis": "^8.0.1",
+    "cors": "^2.8.5",
     "express": "^4.21.2",
     "express-session": "^1.18.1",
     "express-validator": "^7.2.1",
@@ -25,6 +27,9 @@
     "tsx": "^4.19.2"
   },
   "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
     "@types/express": "^5.0.0",
     "@types/express-session": "^1.18.1",
     "@types/jsonwebtoken": "^9.0.7",
