@@ -5,8 +5,6 @@ import {
 
 import { createTransport, Transporter } from "nodemailer";
 import SMTPTransport from "nodemailer/lib/smtp-transport";
-import { UserService } from "../user/user.service";
-import { User } from "../../models/user/user.models";
 
 class Nodemaile {
 	private readonly nodemailer: Transporter<

@@ -1,8 +1,8 @@
 import { DatabaseInfra } from "../../infra/database.infra";
 import { IContractRepositoryCrudGenerics } from "../../interfaces/contractCrudGenerics.interfaces";
-import { IUser, User } from "../../models/user/user.models";
 import { ROLE } from "../../enum/roles/roles.enum";
 import { randomUUID } from "node:crypto";
+import { IUser } from "../../interfaces/user.interfaces";
 
 export class UserRepository
 	extends DatabaseInfra
@@ -20,7 +20,6 @@ export class UserRepository
 		});
 	}
 
-
 	async findBy(data: Partial<IUser>): Promise<IUser> {
 		const findUser = await this.instance.user.findFirst({
 			where: {
@@ -36,7 +35,6 @@ export class UserRepository
 	}
 
 	async insert(data: IUser): Promise<void> {
-
 		await this.instance.user.create({
 			data: {
 				email: data.email,

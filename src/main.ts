@@ -1,11 +1,11 @@
 import Express from "express";
-import { UserController } from "./controller/user/user.controller";
-import { routes } from "./decorators/router.decorators";
 import helmet from "helmet";
 import session from "express-session";
-import { EmailController } from "./controller/email/email.controller";
 
 import cors from "cors";
+import { UserController } from "./controller/user/user.controller";
+import { EmailController } from "./controller/email/email.controller";
+import { routes } from "./decorators/router.decorators";
 
 const app = Express();
 

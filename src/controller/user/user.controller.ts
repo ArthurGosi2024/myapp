@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import { UserService } from "../../service/user/user.service";
-import { IUser } from "../../models/user/user.models";
 import { Route } from "../../decorators/router.decorators";
 import { IFindUser } from "../../interfaces/findUser.interfaces";
 import { STATUSCODE } from "../../enum/statusCode/statusCode.enum";
@@ -15,6 +14,7 @@ import { UserDto } from "../../dtos/user.dto";
 import { EmailService } from "../../service/email/email.service";
 import { tokenGenerator } from "../../helpers/token.helper";
 import { ISecurity } from "../../interfaces/security.interfaces";
+import { IUser } from "../../interfaces/user.interfaces";
 
 export class UserController {
 	private userService: UserService;

@@ -1,9 +1,9 @@
 import { IContractServiceCrudGenerics } from "../../interfaces/contractCrudGenerics.interfaces";
-import { IUser } from "../../models/user/user.models";
 import { UserRepository } from "../../repository/user/user.repository";
 import { CryptoHelper } from "../../helpers/crypto.helper";
 import { IFindUser } from "../../interfaces/findUser.interfaces";
 import { IDeleteUser } from "../../interfaces/deleteUser.interfaces";
+import { IUser } from "../../interfaces/user.interfaces";
 
 export class UserService implements IContractServiceCrudGenerics<IUser> {
 	private readonly userRepository: UserRepository | null = null;
@@ -12,7 +12,7 @@ export class UserService implements IContractServiceCrudGenerics<IUser> {
 		this.userRepository = new UserRepository();
 	}
 
-	async delete(data: IDeleteUser): Promise<Boolean> {
+	async delete(data: IDeleteUser): Promise<boolean> {
 		const findUser = await this.userRepository.findBy({ email: data.email });
 
 		if (findUser) {
@@ -22,7 +22,7 @@ export class UserService implements IContractServiceCrudGenerics<IUser> {
 		return false;
 	}
 
-	async insert(data: IUser): Promise<Boolean> {
+	async insert(data: IUser): Promise<boolean> {
 		const existsUser = await this.findBy({ email: data.email });
 
 		if (existsUser) {
@@ -43,7 +43,7 @@ export class UserService implements IContractServiceCrudGenerics<IUser> {
 		);
 	}
 
-	async findBy(data: Partial<IFindUser>): Promise<IFindUser> {
+	async findBy(data: Partial<IUser>): Promise<IUser> {
 		return await this.userRepository.findBy({ email: data.email });
 	}
 }

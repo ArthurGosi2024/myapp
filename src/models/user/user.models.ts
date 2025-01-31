@@ -4,13 +4,6 @@ import {UserDto} from "../../dtos/user.dto";
 import {ISecurity} from "../../interfaces/security.interfaces";
 import {Role, Security} from "@prisma/client"
 
-export interface IUser extends UserDto {
-    userId?: string;
-    roles?: Role[];
-    phone?: string;
-    security?: Security
-}
-
 
 export class User {
     user: IUser | null = null;
