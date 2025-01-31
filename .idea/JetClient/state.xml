@@ -42,19 +42,28 @@
               <option name="url" value="http://localhost:3000/deleteUser" />
             </requestState>
             <requestState>
-              <option name="id" value="ef1d3e0d-8690-4a73-a069-4c136a7ab48d" />
-              <option name="method" value="GET" />
-              <option name="name" value="Draft" />
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;token&quot;: &quot;E6Z-S9P-YIZ-8KP-99A-HYG-5CT-TYQ-KCH-TZH-NO&quot;,&#10;  &quot;email&quot;: &quot;arthurgosi.oficial@gmail.com&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="14e5d9af-1144-43df-91fb-702c8a41832c" />
+              <option name="method" value="POST" />
+              <option name="name" value="confirm-email" />
+              <option name="url" value="http://localhost:3000/confirm-email" />
             </requestState>
             <requestState>
-              <option name="id" value="acd5d31b-9f47-459d-a4c0-1379af982af4" />
-              <option name="method" value="GET" />
-              <option name="name" value="Draft (1)" />
-            </requestState>
-            <requestState>
-              <option name="id" value="4a6b7bac-58e1-4558-8629-0066aff88fa4" />
-              <option name="method" value="GET" />
-              <option name="name" value="Draft (2)" />
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;arthurgosi.oficial@gmail.com&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="8aba0c43-c786-4d5c-99ce-ec24d28992fa" />
+              <option name="method" value="POST" />
+              <option name="name" value="resend-email-confirmation" />
+              <option name="url" value="http://localhost:3000/resend-email-confirmation" />
             </requestState>
           </list>
         </option>
