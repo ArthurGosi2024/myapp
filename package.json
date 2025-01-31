@@ -4,12 +4,13 @@
   "main": "index.js",
   "scripts": {
     "dev": " tsx  watch --env-file=.env src/main.ts ",
-    "build": "babel . -d dist"
+    "build": "babel src --extensions \".ts\" -d dist"
   },
-  "author": "",
+  "author": "Arthur Gosi",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@babel/preset-typescript": "^7.26.0",
     "@prisma/client": "^6.2.1",
     "@sendgrid/mail": "^8.1.4",
     "class-transformer": "^0.5.1",
@@ -29,6 +30,8 @@
   "devDependencies": {
     "@babel/cli": "^7.26.4",
     "@babel/core": "^7.26.7",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.25.9",
     "@babel/preset-env": "^7.26.7",
     "@types/express": "^5.0.0",
     "@types/express-session": "^1.18.1",
