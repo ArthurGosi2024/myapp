@@ -32,7 +32,7 @@ model Security {
   failedLoginAttempts     Int
   isAccountLocked         Boolean
   lockUntil               BigInt
-  passwordResetExpiration String
+  passwordResetExpiration BigInt
   passwordResetToken      String?
   confirmEmailAccount     Boolean
   confirmEmailToken       String
