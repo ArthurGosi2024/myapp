@@ -26,3 +26,20 @@ export class UserDto {
     @Max(100, {message: "Age cannot be greater than 150"})
     age?: number;
 }
+
+
+export class RecoverDTO {
+    @IsNotEmpty({message: "Email is required"})
+    @IsEmail({}, {message: "Invalid email format"})
+    email: string | undefined;
+    @IsNotEmpty({message: "Password is required"})
+    @Length(8, 20, {message: "Password must be between 8 and 20 characters"})
+    @Matches(/(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])/, {
+        message: "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character",
+    })
+    password: string | undefined;
+
+
+    @IsString({message: "Token must be a string"})
+    token: string
+}
